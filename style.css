@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+
+#title {
+  position: absolute;
+  margin: -30px 0px 30px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 7em;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 500px) {
+  #title {
+    font-size: 3em;
+  }
+}
+
+#img-div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tribute-info {
+  color: #3ceafa;
+  background-color: #072038;
+  line-height: 30px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 60px 5px 60px 5px;
+  padding: 0 5px 0 5px;
+}
+
+#tribute-info1, #tribute-info2, #tribute-info3 {
+  flex: 0 0 33%;
+}
+
+#img1, #img2, #img3 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img1, #img2 {
+  padding-top: 10px;
+}
+
+#img3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
